@@ -1,0 +1,103 @@
+#root
+{
+width: 100%;
+margin: 0 auto;
+}
+.App {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 100%;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-intro {
+  font-size: large;
+}
+.myform
+{
+  background-color: #e1e0ce;
+  margin: 0 auto;
+  padding: 5px;
+  width: 40%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+}
+.myform span
+{
+  border-radius: 1px;
+}
+.myform span input
+{
+  margin: 10px;
+  display: inline;
+  justify-content:space-between;
+  padding-left: 30px;
+  border-radius: 5px;
+  border: none; 
+  width: 50%;
+  height: 40px;
+  font-family: Arial;
+  font-size: 18px;
+  border:1px solid #000;
+}
+.myform p
+{
+  font-size: 18px;
+  margin: 5px;
+  padding: 0;
+}
+.down_text a
+{
+text-decoration: none;
+color:#000;
+}
+.App-button
+{
+  background-color: yellow;
+  color:black;
+  border:1px solid #000;
+  width: 58%;
+  height: 50px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius:5px;
+  margin: 8px;
+}
+.fa-fw
+{
+  position: relative;
+    top: 2px;
+    left: 36px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media (min-width: 1281px) {
+    
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+}
